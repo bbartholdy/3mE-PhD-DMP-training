@@ -1,0 +1,19 @@
+---
+title: "Resources"
+---
+
+## RDM
+
+RDM 101 course materials: <https://zenodo.org/record/6325919#.YxX64bRByUk>
+
+Esther Plomp's adaptation of RDM 101: <https://estherplomp.github.io/TNW-RDM-101/>
+
+Research Data Management FAQs: <https://www.tudelft.nl/en/library/research-data-management/r/buttons/faqs>
+
+Storage solutions for researchers at TU Delft (requires login): <https://tudelft.topdesk.net/tas/public/ssp/content/detail/service?unid=f359caaa60264f99b0084941736786ae&from=feffb489-e1f9-49cd-8223-53ae0b70b609>
+
+The Turing Way: <https://the-turing-way.netlify.app/reproducible-research/rdm.html>
+
+## Open Science
+
+<https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0850-7>

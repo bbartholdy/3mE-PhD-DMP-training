@@ -1,0 +1,15 @@
+/* css styles */
+
+/* TU Delft colours: https://www.tudelft.nl/en/tu-delft-corporate-design/components/colour */
+
+h1 {
+    color: #0C2340;
+}
+
+h2, h3 {
+    color: #00A6D6;
+}
+
+a {
+    color: #E03C31;
+}

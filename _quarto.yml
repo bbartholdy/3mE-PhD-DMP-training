@@ -1,0 +1,25 @@
+project:
+  type: website
+  pre-render: schedule.R
+
+website:
+  title: "DMP Training"
+  description: "Course site for the Data Management Plan Training for PhD students at the 3mE faculty, TU Delft."
+  navbar:
+    background: "#00A6D6"
+    foreground: light
+    logo: TUDelft_logo_white.png
+    right:
+      - href: index.qmd
+        text: Home
+      - part-1.qmd
+      - part-2.qmd
+      - part-3.qmd
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+

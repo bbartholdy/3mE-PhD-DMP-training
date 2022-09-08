@@ -1,0 +1,48 @@
+---
+title: "Part 3"
+---
+
+## Content
+
+Self-study module (60 min)
+
+- Brief introduction
+- Summary of important parts of RDM
+- Data and code archiving and sharing
+- Issues to address before archiving
+- TU Delft Research Software Policy and Software Licenses
+
+Interactive session (60 min)
+
+- Re-evaluation of DMP
+- 2-minute presentation on workflow
+- Any remaining questions
+
+## Assignments
+
+### RDM Question
+
+To be completed prior to attending the interactive session.
+
+Please read your DMP come up with **at least one question** related to your data
+management practice. You can also add questions about legal issues, Intellectual
+Property Rights, confidentiality, subsidy, publication of outputs (paper,
+presentations, etc.) and software licenses. Additionally, if you have questions
+regarding the content in the self-study module, please add them as well.
+
+### Workflow presentation
+
+During the interactive session.
+
+Prepare a **2-3 min presentation** about how you are applying in your daily work what
+you have learned during the Part 1 of this training and wrote in your DMP.
+And perhaps you have some handy tips that you can share with your fellow PhD students.
+Each participant will present their presentation during the online interactive session.
+You can keep this as an oral presentation or show a figure or some slides. It is
+completely up to you. If it helps here are some questions that you can take
+into consideration for your homework:
+
+- Are you confident with how you store your data/code? Is your data stored in a secure environment and is it backed up?    
+- Is your data/code properly documented?    
+- For example, can your supervisor or another colleague easily figure out which file is what? If they open some of the files, are they properly labelled and described?    
+- Crucially, what if you left TU Delft tomorrow? Would your supervisor and (future) colleagues be able to make sense of your data and how your research was done?   
