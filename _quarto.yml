@@ -5,19 +5,31 @@ project:
     freeze: auto
 
 website:
-  title: "DMP Training"
+  title: "DMP Training for 3mE PhD students"
   description: "Course site for the Data Management Plan Training for PhD students at the 3mE faculty, TU Delft."
+  page-footer:
+    right: 
+     - text: "About"
+       href: about.qmd
+#     - text: "License"
+#       href: license.qmd
+
   navbar:
+    title: false
     background: "#00A6D6"
     foreground: light
-    logo: TUDelft_logo_white.png
-    right:
+    logo: img/TUDelft_logo_white.png
+    left:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - part-1.qmd
       - part-2.qmd
       - part-3.qmd
       - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/bbartholdy/3me-phd-dmp-training
+        aria-label: GitHub
 
 format:
   html:

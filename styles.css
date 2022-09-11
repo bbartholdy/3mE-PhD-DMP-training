@@ -13,3 +13,7 @@ h2, h3 {
 a {
     color: #E03C31;
 }
+
+.navbar-brand > img {
+    max-height: 40px;    
+}
