@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 0eac870b-d6cd-4e0e-9610-c2c795b9c5a5
+      url: 'https://3me-dmp-training.netlify.app'
