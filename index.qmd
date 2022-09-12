@@ -28,6 +28,7 @@ library(lubridate)
 schedule <- read_csv("2022-2023_training-sessions.csv")
 
 schedule %>%
+    mutate(Date = as_date(Date)) %>%
     filter(Date > Sys.Date(),
         Session == "Part 3") %>%
     select(!Session) %>%

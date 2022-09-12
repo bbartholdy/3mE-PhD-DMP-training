@@ -1,6 +1,6 @@
 project:
   type: website
-  pre-render: schedule.R
+  #pre-render: schedule.R
 
 website:
   title: "DMP Training"
