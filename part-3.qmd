@@ -6,11 +6,12 @@ title: "Part 3"
 
 Self-study module (60 min)
 
-- Brief introduction
-- Summary of important parts of RDM
-- Data and code archiving and sharing
-- Issues to address before archiving
-- TU Delft Research Software Policy and Software Licenses
+- [Brief introduction 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623414/View){style="text-decoration: none;"}
+- [Summary of important parts of RDM 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623433/View){style="text-decoration: none;"}
+- [Data and code archiving and sharing 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623439/View){style="text-decoration: none;"}
+- [Issues to address before archiving 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623443/View){style="text-decoration: none;"}
+- [TU Delft Research Software Policy and Software Licenses 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623474/View){style="text-decoration: none;"}
+- [How to archive data and code 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623479/View){style="text-decoration: none;"}
 
 Interactive session (60 min)
 

@@ -4,6 +4,12 @@ title: "Resources"
 
 ## RDM
 
+DMP:
+
+- About: <https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-plans>
+- Informed consent: <https://www.tudelft.nl/over-tu-delft/strategie/integriteitsbeleid/human-research-ethics/informed-consent-templates-and-guide>
+- HREC application: <https://www.tudelft.nl/over-tu-delft/strategie/integriteitsbeleid/human-research-ethics/>
+
 Data organisation:
 
 - File naming: <https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-naming>
@@ -34,9 +40,9 @@ Data publishing/archiving
 
 Help:
 
-- TU Delft Data Stewards: <https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/>
-- Data management plans: <https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-plans>
+- TU Delft Data Stewards: <https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact>
 - Research Data Management FAQs: <https://www.tudelft.nl/en/library/research-data-management/r/buttons/faqs>
+- TU Delft Digital Competence Center: <https://dcc.tudelft.nl/>
 
 ## Open Science
 
@@ -45,3 +51,5 @@ Why? <https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0850-7
 FAIR: <https://fairsharing.org/standards/>
 
 Reproducible research: <https://the-turing-way.netlify.app/welcome>
+
+Blog: <https://estherplomp.github.io/TNW-OS-support/>

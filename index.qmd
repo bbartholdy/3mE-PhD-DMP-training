@@ -81,5 +81,6 @@ All PhD students who started from Jan 2020:
 ## Important links
 
 - [DMPonline (TU Delft)](https://dmponline.tudelft.nl)
+- Brightspace module for Part 1 (under construction)
 - [Brightspace module for Part 3](https://brightspace.tudelft.nl/d2l/le/content/471218)
 - [3mE faculty policy for data management](https://d2k0ddhflgrk1i.cloudfront.net/Library/Themaportalen/RDM/Beleid/2020_3mE_Research_Data_Management_Policy.pdf)

@@ -25,7 +25,7 @@ website:
       - part-1.qmd
       - part-2.qmd
       - part-3.qmd
-      - about.qmd
+      #- about.qmd
     right:
       - icon: github
         href: https://github.com/bbartholdy/3me-phd-dmp-training

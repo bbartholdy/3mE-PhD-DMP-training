@@ -17,13 +17,13 @@ Brightspace module under construction.
 
 Link to presentation.
 
-## DMPonline
+## DMPonline instructions
 
 The DMPonline service is hosted at the University of Edinburgh by the Digital Curation Centre. The data management plans are stored at servers of the University of Edinburgh, UK.
 In order to help identify and administer your account with DMPonline, they store your name and email address. They do not sell, rent or trade any personal information you provide.
 The information you enter into this system can be seen by you, people you have chosen to share access with, and - for the purposes of providing DMP support - service administrators at TU Delft. 
 
-### Step 1 - Login
+### Step 1 - Login {#dmp-login}
 
 Go to <https://dmponline.tudelft.nl>
 
@@ -35,11 +35,11 @@ If you have already created an account, Go to 'Sign in'.
 
 ## Create account
 
-![](img/DMPonline-login-first.png)
+![](img/DMPonline-login-first.png){style="border: 1px solid #dee2e6;"}
 
 Fill in the short form consisting of your name, email address (preferably your TU Delft email address), organisation (type Delft and "Delft University of Technology" will appear. Click on this.), and create a password.
 
-![](img/DMPonline-create-account.png)
+![](img/DMPonline-create-account.png){style="border: 1px solid #dee2e6;"}
 
 Next time you log on, you can go to 'Sign in with your institutional credentials'.
 
@@ -48,17 +48,17 @@ Next time you log on, you can go to 'Sign in with your institutional credentials
 
 Click on 'Sign in with your institutional credentials'.
 
-![](img/DMPonline-login-again.png)
+![](img/DMPonline-login-again.png){style="border: 1px solid #dee2e6;"}
 
 Select Delft University of Technology from the institutional login page.
 
-![](img/DMPonline-select-org.png)
+![](img/DMPonline-select-org.png){style="border: 1px solid #dee2e6;"}
 
 Log in with your NetID
 
 :::
 
-### Step 2 - Create a plan
+### Step 2 - Create a plan {#dmp-create}
 
 Click on the 'Create plans' tab and fill in the following:
 
@@ -72,12 +72,12 @@ Select the primary funding organisation > No funder associated with this plan or
 You need to select 'No funder' to be able to access TU Delft Data management Plan template (2021) that is used in this training.
 :::
 
-![](img/DMPonline-create-plan.png)
+![](img/DMPonline-create-plan.png){style="border: 1px solid #dee2e6;"}
 
 Select the TU Delft Data management Plan template (2021) and click 'Create Plan'
 
 
-### Step 3 - Writing the plan
+### Step 3 - Writing the plan {#dmp-write}
 
 Go to Project Details: Please fill in the funder. A short abstract is handy if you would like me to review your plan. Here you can also change the project title if necessary. The remaining questions are optional. Make sure to click on 'save'.
 
@@ -93,23 +93,28 @@ Based on the answers you provide, some of the questions will get removed. Theref
 
 Answer questions 1 - 6 (sections 0 - III). 
 
-![**Q1** as 'This DMP is created during the Data Management Plan Training for 3mE PhD students delivered by my faculty data steward {{< var instructor.name >}}' and **Q2** as the date of the training.](img/DMPonline-write-plan.png)
+![Q1: 'This DMP is created during the Data Management Plan Training for 3mE PhD students delivered by my faculty data steward {{< var instructor.name >}}' <br> Q2: the date of the training.](img/DMPonline-write-plan.png){style="border: 1px solid #dee2e6;"}
 
 Please feel free to make use of the example answers provided under the questions and consult the guidance provided at the right side of each question. Just make sure you understand the example answer before you copy-paste.
 
-### Step 4 - Personal data
+### Step 4 - Personal data {#dmp-personal}
 
 Continue with Q7 in the section 'IV. Legal and ethical requirements, codes of conduct'.
 
 If you will not work with personal data, after answering Q7 - Q9 in the section 'Legal and ethical requirements, codes of conduct', you can continue with Q26 in the section 'Data sharing and long-term preservation'.  
 The remaining questions (Q10 - Q25) in the section 'Legal and ethical requirements' are only applicable if you will process personal data. Questions about these (Q10 - Q25) will be addressed during the section of this course on personal data.
 
-### Step 5 - DMP feedback and approval
+### Step 5 - DMP feedback and approval {#dmp-feedback}
 
 It is the responsibility of the PhD supervisor(s) to review and approve the DMP and the Data Steward can be consulted if desired. To share the DMP with your supervisor(s), go to the Share tab and invite them as a collaborator. You can choose to give various permissions (co-owner, editor, read only) to your collaborators. On this tab, you can also determine the visibility (private, organisation, public) of your plan. It is set as private by default.
 
 If you would like me to give feedback on your plan, go to the Request feedback tab and click on 'Request feedback'.
+
+![](img/DMPonline-request-feedback.png){style="border: 1px solid #dee2e6;"}
+
 Once your DMP is complete, go to the Download tab and download it in the format you wish. If you would like the information in 'Project Details' to be included, make  sure to select 'project details coversheet'. 
+
+![Project details includes the abstract, ID, funder, etc.](img/DMPonline-download.png){style="border: 1px solid #dee2e6;"}
 
 If you ask me to review your DMP after this training, then you can update your answer to Q1 by making use of the TU Delft example answer and Q2 with the date of the review. 
 

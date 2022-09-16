@@ -7,4 +7,4 @@ title: "Part 2"
 Part 2 consists of self-study.
 
 - Discussing with supervisor and completing the DMP
-- Contact with the faculty Data Steward as needed
+- Contact with the faculty [Data Steward](https://www.tudelft.nl/en/library/research-data-management/r/support/data-stewardship/contact) as needed
