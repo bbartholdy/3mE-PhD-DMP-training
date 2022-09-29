@@ -4,7 +4,9 @@ title: "Part 3"
 
 ## Content
 
-Self-study module (60 min)
+**Self-study module (60 min)**
+
+The following video links require registration for Part 3 in Brightspace.
 
 - [Brief introduction 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623414/View){style="text-decoration: none;"}
 - [Summary of important parts of RDM 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623433/View){style="text-decoration: none;"}
@@ -13,11 +15,13 @@ Self-study module (60 min)
 - [TU Delft Research Software Policy and Software Licenses 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623474/View){style="text-decoration: none;"}
 - [How to archive data and code 📹](https://brightspace.tudelft.nl/d2l/le/content/471218/viewContent/2623479/View){style="text-decoration: none;"}
 
-Interactive session (60 min)
+**Interactive session (60 min)**
 
 - Re-evaluation of DMP
 - 2-minute presentation on workflow
 - Any remaining questions
+
+You can register for the interactive session in [Brightspace](https://brightspace.tudelft.nl/d2l/le/content/471218) by joining the group associated with the time slot.
 
 ## Assignments
 
@@ -46,4 +50,4 @@ into consideration for your homework:
 - Are you confident with how you store your data/code? Is your data stored in a secure environment and is it backed up?    
 - Is your data/code properly documented?    
 - For example, can your supervisor or another colleague easily figure out which file is what? If they open some of the files, are they properly labelled and described?    
-- Crucially, what if you left TU Delft tomorrow? Would your supervisor and (future) colleagues be able to make sense of your data and how your research was done?   
+- Crucially, what if you left TU Delft tomorrow? Would your supervisor and (future) colleagues be able to make sense of your data and how your research was done?

@@ -11,13 +11,11 @@ knitr:
 
 This course is offered by the 3mE Graduate School to support PhD students at the 3mE faculty with the Research Data Mangement [policy](https://d2k0ddhflgrk1i.cloudfront.net/Library/Themaportalen/RDM/Beleid/2020_3mE_Research_Data_Management_Policy.pdf) requirements. The course consists of lectures with recommendations for data storage, project organisation, and data sharing and archiving. There will also be a practical component where students will get hands-on experience developing a Data Management Plan (DMP) using the [DMPonline](https://dmponline.tudelft.nl) platform.
 
+For more information about the course, and for registration, contact {{< var instructor.name >}} at {{< var instructor.email >}}.
+
 ## Schedule
 
 ### Part 1
-
-TBD
-
-### Part 3
 
 ```{r}
 #| echo: false
@@ -30,8 +28,30 @@ schedule <- read_csv("2022-2023_training-sessions.csv")
 schedule %>%
     mutate(Date = as_date(Date)) %>%
     filter(Date > Sys.Date(),
-        Session == "Part 3") %>%
-    select(!Session) %>%
+        Session == "Part 1",
+        Status != "Cancelled") %>%
+    select(!c(Session, Status)) %>%
+    knitr::kable()
+```
+
+### Part 3
+
+Registration for sessions is available on [Brightspace](https://brightspace.tudelft.nl/d2l/le/content/471218) for those who have completed parts 1 and 2.
+
+```{r}
+#| echo: false
+#| message: false
+library(dplyr)
+library(readr)
+library(lubridate)
+schedule <- read_csv("2022-2023_training-sessions.csv")
+
+schedule %>%
+    mutate(Date = as_date(Date)) %>%
+    filter(Date > Sys.Date(),
+        Session == "Part 3",
+        Status != "Cancelled") %>%
+    select(!c(Session, Status)) %>%
     knitr::kable()
 ```
 
@@ -68,7 +88,7 @@ If you need to submit your PhD agreement before following one of these trainings
     - After the training, you will discuss your DMP with your PhD supervisor(s).  
     - You will include your DMP in the Go/No Go Decision. 
 
-It is the responsibility of the PhD supervisor(s) to approve the DMP, not the Data Steward. A guide for this can be found [here](https://d1rkab7tlqy5f1.cloudfront.net/Library/Themaportalen/RDM/5%20Things%20to%20check%20when%20looking%20at%20Data%20Management%20Plans%20%28DMPs%29%20-%20guidance%20for%20supervisors%20-%20FINAL%20VERSION%20%281%29.pdf).
+It is the responsibility of the PhD supervisor(s) to approve the DMP, not the Data Steward. A guide for the PhD supervisors can be found [here](https://d1rkab7tlqy5f1.cloudfront.net/Library/Themaportalen/RDM/5%20Things%20to%20check%20when%20looking%20at%20Data%20Management%20Plans%20%28DMPs%29%20-%20guidance%20for%20supervisors%20-%20FINAL%20VERSION%20%281%29.pdf).
 
 ## 3mE data management policy summary {#policy-summary}
 
