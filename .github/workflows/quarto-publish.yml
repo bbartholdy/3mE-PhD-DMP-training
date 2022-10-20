@@ -2,7 +2,7 @@ on:
   push:
     branches: main
   schedule:
-    - cron: '0 0 * * 7'  # every Sunday at midnight
+    - cron: '0 0 * * 0'  # every Sunday at midnight
 
 
 name: Render and Publish to Netlify
