@@ -1,30 +1,32 @@
 project:
   type: website
   #pre-render: schedule.R
-  execute:
-    freeze: auto
+execute:
+  freeze: false
 
 website:
   title: "DMP Training for 3mE PhD students"
   description: "Course site for the Data Management Plan Training for PhD students at the 3mE faculty, TU Delft."
+  site-url: https://3me-dmp-training.netlify.app/
   page-footer:
     right: 
      - text: "About"
        href: about.qmd
-#     - text: "License"
-#       href: license.qmd
+     - text: "License"
+       href: LICENSE
 
   navbar:
     title: false
     background: "#00A6D6"
     foreground: light
-    logo: img/TUDelft_logo_white.png
+    logo: img/TUDelft_logo_white_cropped.png
     left:
       - href: index.qmd
         text: "Home"
       - part-1.qmd
       - part-2.qmd
       - part-3.qmd
+      - resources.qmd
       #- about.qmd
     right:
       - icon: github
