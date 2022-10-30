@@ -15,7 +15,7 @@ Part 1 consists of a presentation on research data management as well as hands-o
 
 Brightspace module under construction.
 
-Link to presentation.
+Link to presentation: <https://bbartholdy.github.io/3mE-PhD-DMP-slides/part-1.html>
 
 ## DMPonline instructions
 
