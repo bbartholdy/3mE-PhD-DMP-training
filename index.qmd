@@ -13,25 +13,32 @@ This course is offered by the 3mE Graduate School to support PhD students at the
 
 For more information about the course, and for registration, contact {{< var instructor.name >}} at {{< var instructor.email >}}.
 
-## Schedule
+## Upcoming schedule
 
 ### Part 1
 
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 library(dplyr)
 library(readr)
 library(lubridate)
 schedule <- read_csv("2022-2023_training-sessions.csv")
 
-schedule %>%
+schedule_part1 <- schedule %>%
     mutate(Date = as_date(Date)) %>%
     filter(Date > Sys.Date(),
         Session == "Part 1",
         Status != "Cancelled") %>%
-    select(!c(Session, Status)) %>%
-    knitr::kable()
+    select(!c(Session, Status))
+
+if(nrow(schedule_part1) == 0){
+    cat("**TBD**")
+} else {
+    schedule_part1 %>%
+        knitr::kable()
+}
 ```
 
 ### Part 3
@@ -41,18 +48,21 @@ Registration for sessions is available on [Brightspace](https://brightspace.tude
 ```{r}
 #| echo: false
 #| message: false
-library(dplyr)
-library(readr)
-library(lubridate)
-schedule <- read_csv("2022-2023_training-sessions.csv")
+#| warning: false
 
-schedule %>%
+schedule_part3 <- schedule %>%
     mutate(Date = as_date(Date)) %>%
     filter(Date > Sys.Date(),
         Session == "Part 3",
         Status != "Cancelled") %>%
-    select(!c(Session, Status)) %>%
-    knitr::kable()
+    select(!c(Session, Status)) 
+
+if(nrow(schedule_part3) == 0){
+    cat("**TBD**")
+} else {
+    schedule_part3 %>%
+        knitr::kable()
+}
 ```
 
 ## Training outcomes
