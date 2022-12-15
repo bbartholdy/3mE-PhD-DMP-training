@@ -1,11 +1,12 @@
 Session,Date,Time,Location,Status
-Part 3,2022-10-3,10.45-11.45,"3mE Hall I, 34.D-1-200",Full
-Part 3,2022-10-3,15.00-16.00,Online,Open
+Part 3,2022-10-3,10.45-11.45,"3mE Hall I, 34.D-1-200",Complete
+Part 3,2022-10-3,15.00-16.00,Online,Complete
 Part 3,2022-10-5,11.00-12.00,Online,Cancelled
-Part 3,2022-10-5,14.45-15.45,"3mE Hall I, 34.D-1-200",Open
-Part 3,2022-10-7,15.00-16.00,Online,Open
+Part 3,2022-10-5,14.45-15.45,"3mE Hall I, 34.D-1-200",Complete
+Part 3,2022-10-7,15.00-16.00,Online,Complete
 Part 3,2022-10-13,11.00-12.00,Online,Cancelled
-Part 3,2022-10-13,14.45-15.45,"3mE Hall I, 34.D-1-200",Open
+Part 3,2022-10-13,14.45-15.45,"3mE Hall I, 34.D-1-200",Complete
 Part 3,2022-11-10,11.00-12.00,Online,Cancelled
-Part 3,2022-11-10,14.45-15.45,"3mE Hall F - Simon Stevin, 34.A-0-610",Open
-Part 1,2022-10-31,14.45-16.45,"3mE Hall F - Simon Stevin, 34.A-0-610",Open
+Part 3,2022-11-10,14.45-15.45,"3mE Hall F - Simon Stevin, 34.A-0-610",Complete
+Part 1,2022-10-31,14.45-16.45,"3mE Hall F - Simon Stevin, 34.A-0-610",Complete
+Part 1,2023-01-25,10.00-12.30,"3mE Hall J, 34.D-1-300",Open
