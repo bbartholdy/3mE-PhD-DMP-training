@@ -3,8 +3,9 @@ title: "Data Management Plan Training"
 knitr:
   opts_knit: 
     message: false
-    warning: false
-    echo: false
+execute: 
+  echo: false
+  warning: false
 ---
 
 ## Course description
@@ -18,9 +19,7 @@ For more information about the course, and for registration, contact {{< var ins
 ### Part 1
 
 ```{r}
-#| echo: false
-#| message: false
-#| warning: false
+#| label: part1-schedule
 library(dplyr)
 library(readr)
 library(lubridate)
@@ -46,9 +45,7 @@ if(nrow(schedule_part1) == 0){
 Registration for sessions is available on [Brightspace](https://brightspace.tudelft.nl/d2l/le/content/471218) for those who have completed parts 1 and 2.
 
 ```{r}
-#| echo: false
-#| message: false
-#| warning: false
+#| label: part3-schedule
 
 schedule_part3 <- schedule %>%
     mutate(Date = as_date(Date)) %>%

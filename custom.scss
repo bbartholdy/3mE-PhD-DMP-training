@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+
+// TUDelft colours
+
+$cyan:    #00A6D6 !default;
+$white:   #ffffff !default;
+$black:   #000000 !default;
+
+$navy:    #0c2340 !default;
+$blue2:   #00b8c8 !default;
+$blue:    #0076c2 !default;
+$purple:  #6f1d77 !default;
+$pink:    #ef60a3 !default;
+$red:     #a50034 !default;
+$orange:  #e03c31 !default;
+$orange2: #ec6842 !default;
+$yellow:  #ffb81c !default;
+$green:   #6cc24a !default;
+$teal:    #009b77 !default;
+
+
+$headings-font-family:  'Roboto Slab';
+$h2-font-size:          1.6rem;
+$headings-font-weight:  500;
+$body-color:            $black;
+$link-color:            #E03C31;
+
+
+/*-- scss:rules --*/
+
+h1 {
+  font-family: Arial, sans-serif;
+  color: #0C2340;
+}
+
+h2, h3 {
+  font-family: Arial, sans-serif;
+  color: $cyan;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand > img {
+  max-height: 52px;    
+}

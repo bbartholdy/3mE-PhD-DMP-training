@@ -35,7 +35,8 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      light: custom.scss
+      #dark: custom-dark.scss
     toc: true
 
