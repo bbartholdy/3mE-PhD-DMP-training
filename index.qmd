@@ -19,12 +19,16 @@ For more information about the course, and for registration, contact {{< var ins
 ### Part 1
 
 ```{r}
-#| label: part1-schedule
+#| label: setup
+#| include: false
 library(dplyr)
 library(readr)
 library(lubridate)
 schedule <- read_csv("2022-2023_training-sessions.csv")
+```
 
+```{r}
+#| label: part1-schedule
 schedule_part1 <- schedule %>%
     mutate(Date = as_date(Date)) %>%
     filter(Date > Sys.Date(),
@@ -50,7 +54,7 @@ Registration for sessions is available on [Brightspace](https://brightspace.tude
 schedule_part3 <- schedule %>%
     mutate(Date = as_date(Date)) %>%
     filter(Date > Sys.Date(),
-        Session == "Part 3",
+        grepl("Part 3", Session),
         Status != "Cancelled") %>%
     select(!c(Session, Status)) 
 
