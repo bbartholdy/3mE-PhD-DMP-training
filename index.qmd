@@ -54,7 +54,7 @@ Registration for sessions is available on [Brightspace](https://brightspace.tude
 schedule_part3 <- schedule %>%
     mutate(Date = as_date(Date)) %>%
     filter(Date > Sys.Date(),
-        grepl("Part 3", Session),
+        Session == "Part 3",
         Status != "Cancelled") %>%
     select(!c(Session, Status)) 
 
